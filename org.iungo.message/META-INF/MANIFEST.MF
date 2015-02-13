@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Message
+Bundle-SymbolicName: org.iungo.message
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.iungo.message.osgi.BundleActivator
+Bundle-Vendor: Iungo
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.iungo.common.api,
+ org.iungo.context.api,
+ org.iungo.id.api,
+ org.iungo.result.api,
+ org.osgi.framework;version="1.3.0"
+Export-Package: org.iungo.message.api
